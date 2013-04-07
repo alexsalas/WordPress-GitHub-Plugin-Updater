@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WP Github Plugin Updater Test
-Plugin URI: https://github.com/jkudish/WordPress-GitHub-Plugin-Updater
+Plugin URI: https://github.com/alexsalas/WordPress-GitHub-Plugin-Updater
 Description: Semi-automated test for the Github Plugin Updater
 Version: 0.1
 Author: Joachim Kudish
-Author URI: http://jkudish.com/
+Author URI: http://alexsalas.com/
 License: GPLv2
 */
 
@@ -14,7 +14,7 @@ License: GPLv2
  * The real version # is below
  *
  * @package GithubUpdater
- * @author Joachim Kudish @link http://jkudish.com
+ * @author Joachim Kudish @link http://alexsalas.com
  * @since 1.3
  * @version 1.5
  */
@@ -47,10 +47,10 @@ function github_plugin_updater_test_init() {
 		$config = array(
 			'slug' => plugin_basename( __FILE__ ),
 			'proper_folder_name' => 'github-updater',
-			'api_url' => 'https://api.github.com/repos/jkudish/WordPress-GitHub-Plugin-Updater',
-			'raw_url' => 'https://raw.github.com/jkudish/WordPress-GitHub-Plugin-Updater/master',
-			'github_url' => 'https://github.com/jkudish/WordPress-GitHub-Plugin-Updater',
-			'zip_url' => 'https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/zipball/master',
+			'api_url' => 'https://api.github.com/repos/alexsalas/WordPress-GitHub-Plugin-Updater',
+			'raw_url' => 'https://raw.github.com/alexsalas/WordPress-GitHub-Plugin-Updater/master',
+			'github_url' => 'https://github.com/alexsalas/WordPress-GitHub-Plugin-Updater',
+			'zip_url' => 'https://github.com/alexsalas/WordPress-GitHub-Plugin-Updater/zipball/master',
 			'sslverify' => true,
 			'requires' => '3.0',
 			'tested' => '3.3',
